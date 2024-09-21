@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: rgb(250, 120, 120);
+    font-size: 16px;
+}
+
+.container {
+    max-width: 767px;
+    padding: 0 15px;
+}
+
+h1 {
+    color: #fafafa;
+    max-width: 200px;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-size: 26px;
+}
+
+.title-text {
+    padding-top: 20px;
+    color: #fafafa;
+    text-align: center;
+    font-weight: 300;
+    max-width: 270px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.button-trial p {
+    background-color: rgb(93, 80, 207);
+    color: #fafafa;
+    font-weight: 400;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px 45px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button-trial p {
+    background-color: rgb(56, 40, 199);
+}
+
+.button-trial p:hover {
+    position: relative;
+    top: 1px;
+}
+
+.button-trial p span {
+    font-weight: 600;
+}
+
+.form-container {
+    background-color: #fafafa;
+    padding: 16px;
+}
+
+.form {
+    background: #ffff;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.form input {
+    padding: 20px 0 20px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    width: 96%;
+}
+
+.submit-btn {
+    border: none;
+    background-color: rgb(105, 186, 141);
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(28, 184, 98);
+}
+
+.service {
+    font-size: 12px;
+    text-align: center;
+    width: 230px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.service a {
+    color: rgb(247, 66, 16);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .container {
+        max-width: 1439px;
+        padding: 0 26px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 32px;
+    }
+}
