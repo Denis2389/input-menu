@@ -6,28 +6,32 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Intro component with sign up form</title>
+  <title>Form</title>
 </head>
 <body>
-  <main>
+  <main class="container-form-flex">
     <section class="title-section">
       <div class="container">
-        <h1>Learn to code by watching others</h1>
-        <p class="title-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
-          but understanding how developers think is invaluable.</p>
-          <a class="button-trial" href="#"><p><span>Try it free 7 days</span> then $20/mo. thereafter</p></a>
+          <h1>Learn to code by watching others</h1>
+            <p class="title-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+              but understanding how developers think is invaluable.</p>
       </div>
     </section>
     <section>
       <div class="container">
-       <div class="form">
-        <input class="name-inp" type="text" placeholder="First Name" name="name" required>
-        <input class="lastn-inp" type="text" placeholder="Last Name" name="last_name">
-        <input class="email-inp" type="email" placeholder="Email Address" name="email" required>
-        <input class="pass-inp" type="password" placeholder="Password" name="password" required>
-        <button class="submit-btn" type="submit">Claim your free trial</button>
-        <p class="service">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
-       </div>
+        <div class="flex-container-width">
+          <a class="button-trial" href="#"><p><span>Try it free 7 days</span> then $20/mo. thereafter</p></a>
+        <div class="form">
+          <form id="myForm">
+            <input class="name-inp" type="text" placeholder="First Name" name="name" required>
+            <input class="lastn-inp" type="text" placeholder="Last Name" name="last_name">
+            <input class="email-inp" type="email" placeholder="Email Address" name="email" required>
+            <input class="pass-inp" type="password" placeholder="Password" name="password" required>
+            <button class="submit-btn" type="submit">Claim your free trial</button>
+            <p class="service">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+          </form>
+        </div>
+        </div>
       </div>
     </section>
   </main>

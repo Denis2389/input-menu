@@ -46,10 +46,10 @@ body {
 
 h1 {
     color: #fafafa;
-    max-width: 200px;
+    max-width: 250px;
     margin: 0 auto;
     padding-top: 70px;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .title-text {
@@ -64,20 +64,16 @@ h1 {
 }
 
 .button-trial p {
-    background-color: rgb(93, 80, 207);
+    background-color: rgb(56, 40, 199);
     color: #fafafa;
     font-weight: 400;
-    max-width: 200px;
     margin: 0 auto;
-    padding: 20px 45px;
+    padding: 20px 20px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
     margin-bottom: 20px;
-}
-
-.button-trial p {
-    background-color: rgb(56, 40, 199);
+    max-width: 550px;
 }
 
 .button-trial p:hover {
@@ -98,6 +94,8 @@ h1 {
     background: #ffff;
     padding: 18px;
     border-radius: 8px;
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 .form input {
@@ -140,16 +138,63 @@ h1 {
     font-weight: 500;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .container {
         max-width: 1439px;
-        padding: 0 26px;
+        padding: 0 36px;
     }
+
+     .form {
+        padding: 32px;
+     } 
+
+     .container-title {
+        margin: 0;
+     }
+
+     .title-text {
+        font-size: 21px;
+        max-width: 420px;
+     }
+     
+     h1 {
+        font-size: 36px;
+        max-width: 300px;
+     }
+
+     .button-trial p {
+        padding: 24px 33px;
+     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
     .container {
         max-width: 1440px;
-        padding: 0 32px;
+        padding: 0 64px;
     }
+
+    .container-form-flex {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+
+    h1 {
+        max-width: 480px;
+        font-size: 52px;
+    }
+
+    .title-text {
+        margin: 0;
+        max-width: 480px;
+        text-align: left;
+    }
+    .form {
+        padding: 48px;
+     } 
+     
+     .button-trial p {
+        padding: 24px 50px;
+     }
 }
